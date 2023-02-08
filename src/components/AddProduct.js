@@ -83,8 +83,12 @@ function AddProduct() {
                         <option selected>Add Categori</option>
                         <option value="Organza">Organza</option>
                         <option value="Printed">Printed</option>
-                        <option value="Double layered Hair bows">Double layered Hair bows</option>
+                        <option value="Double layered Hair bows">Double layered</option>
                         <option value="Wristlets">Wristlets</option>
+                        <option value="hairbows">Hair Bows</option>
+                        <option value="anime">Anime</option>
+                        <option value="kpop">Kpop</option>
+                        <option value="clips">Clips</option>
                     </Form.Select>
                 </Form.Group>
                 <Form.Group controlId="formFile" className="mb-3">
