@@ -52,8 +52,15 @@ function GetCart() {
         +`%0a`
         +'Shipping charges:-80'
         +`%0a`
-        +`total:${count}`
+        +`Total+Shipping charges:${count}+80`
         +'%0a'
+        +`UPI Number:-7549009554`
+        +`%0a`
+        +`please send the screenshot after Payment`
+        +`%0a`
+        +`Order Confirmend after Payment`
+        +`%0a`
+        +`Order Dispatched Under 2 to 3 Working days`
         window.open(url,'_blank').focus();
     }
 
