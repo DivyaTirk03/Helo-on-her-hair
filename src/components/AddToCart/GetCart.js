@@ -50,16 +50,22 @@ function GetCart() {
         let url="https://wa.me/9471784941?text="
         +`item:-${category}`
         +`%0a`
+        +'%0a'
         +'Shipping charges:-80'
         +`%0a`
-        +`Total+Shipping charges:${count}+80`
+        +'%0a'
+        +`Total+Shipping charges:${count+80}`
+        +'%0a'
         +'%0a'
         +`UPI Number:-7549009554`
         +`%0a`
+        +'%0a'
         +`please send the screenshot after Payment`
         +`%0a`
+        +'%0a'
         +`Order Confirmend after Payment`
         +`%0a`
+        +'%0a'
         +`Order Dispatched Under 2 to 3 Working days`
         window.open(url,'_blank').focus();
     }
