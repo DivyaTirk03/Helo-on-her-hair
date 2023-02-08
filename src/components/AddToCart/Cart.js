@@ -13,7 +13,7 @@ function Cart() {
 
     let getProduct = async () => {
 
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/upload/product?id=63dbafd83c7ba8cec8ded823`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/product?id=63dbafd83c7ba8cec8ded823`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
