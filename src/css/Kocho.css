@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.navigationbtn{
+margin: 40px 0;
+}
+
+.navigationbtn button{
+    background-color: black;
+    color:white;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(33, 33, 58);
+    padding: 10px 20px;
+    margin-top: 70px;
+}
+
+.navbtn{
+    color: white;
+    background-color: rgb(33, 33, 58);
+}
+
+.ds2{
+    box-sizing: border-box;
+    /* padding-left:10px; */
+}
+
+.best{
+    margin-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    .ds2{
+        box-sizing: border-box;
+        /* padding-left:50px; */
+    }
+}

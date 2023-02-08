@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.inputandselect{
+    padding:0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    padding:5px;
+    border-radius: 5px;
+    border: 2px solid #aba6a6;
+    outline: none;
+    width: 30%;
+}
+
+.selectd{
+    border: 2px solid #aba6a6;
+    outline: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:500px) {
+    .inputandselect{
+        padding:0 1%;
+    }
+    .input{
+        padding:7px;
+        border-radius: 5px;
+        border: 2px solid #aba6a6;
+        outline: none;
+        width: 50%;
+    }
+    .selectd{
+        border: 2px solid #aba6a6;
+        outline: none;
+        border-radius: 5px;
+        font-size: 12px;
+        padding:-5px;
+        box-sizing: border-box;
+    }
+}
