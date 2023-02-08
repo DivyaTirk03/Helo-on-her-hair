@@ -13,7 +13,7 @@ function Kocho() {
 
     let getProduct = async () => {
 
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/upload`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
