@@ -40,7 +40,7 @@ function Navigation() {
                                         <Link to="/hairbows" className="nav-item text-secondary">Hair Bows</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link to="/Anime" className="nav-item text-secondary">Anime</Link>
+                                        <Link to="/anime" className="nav-item text-secondary">Anime</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <Link to="/kpop" className="nav-item text-secondary">Kpop</Link>
