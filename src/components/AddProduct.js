@@ -35,7 +35,7 @@ function AddProduct() {
         if (file.url) {
             productImage = file.url;
             console.log("uploaded");
-            fetch('https://helo-on-her-hair-api.onrender.com/v1/upload/upload', {
+            fetch('https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/upload', {
                 method: 'POST',
                 body: JSON.stringify({ productDetail, productPrice, productCategori, productImage }),
                 headers: {
