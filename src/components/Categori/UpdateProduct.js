@@ -13,7 +13,7 @@ function UpdateProduct() {
     const params = useParams();
 
     const getProduct = async () => {
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/upload/product?id=${params.id}`)
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/product?id=${params.id}`)
         result = await result.json();
         // console.log(result.data.productCategori);
         setProductDetail(result.data.productDetail)
@@ -24,7 +24,7 @@ function UpdateProduct() {
 
     const onsubmit = async () => {
         console.log(productDetail, productPrice, productCategori );
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/upload/updateProduct/${params.id}`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/updateProduct/${params.id}`, {
             method: 'PUT',
             body: JSON.stringify({ productDetail, productPrice, productCategori }),
             headers: {
