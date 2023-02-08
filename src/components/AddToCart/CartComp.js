@@ -24,7 +24,7 @@ function CartComp(props) {
                         <Card.Title className="title" style={{ width: "108%" }}>{props.productDetail} and {props.productCategori}</Card.Title>
                         <Card.Text className="price">Rs. {props.productPrice}</Card.Text>
                         {auth ? <Button variant="dark" onClick={() => {
-                            fetch(`https://helo-on-her-hair-api.onrender.com/v1/user/deletecart/${props.id}`, {
+                            fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/user/deletecart/${props.id}`, {
                                 method: 'DELETE',
                                 headers: {
                                     'Content-Type': 'application/json',
