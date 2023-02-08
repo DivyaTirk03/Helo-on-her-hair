@@ -31,10 +31,22 @@ function Navigation() {
                                         <Link to="/Printed" className="nav-item text-secondary">Printed</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link to="/doublelayered" className="nav-item text-secondary">Double Layered Hair Bows</Link>
+                                        <Link to="/doublelayered" className="nav-item text-secondary">Double Layered</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                     <Link to="/Wristlets" className="nav-item text-secondary">Wristlets</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item>
+                                        <Link to="/hairbows" className="nav-item text-secondary">Hair Bows</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item>
+                                        <Link to="/Anime" className="nav-item text-secondary">Anime</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item>
+                                        <Link to="/kpop" className="nav-item text-secondary">Kpop</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item>
+                                        <Link to="/clips" className="nav-item text-secondary">Clips</Link>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 {auth?<Link to="/addproduct" className="nav-item text-secondary">Add Product</Link>:<Link  className="nav-item text-secondary"></Link>}
