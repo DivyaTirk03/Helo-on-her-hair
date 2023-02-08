@@ -10,7 +10,7 @@ function Kpop() {
 
     let getProduct = async () => {
 
-        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/search?name=Kpop`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/upload/search?name=kpop`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
