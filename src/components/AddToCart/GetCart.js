@@ -19,7 +19,7 @@ function GetCart() {
 
     let getProduct = async () => {
 
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/user/getCartById?postedBy=${auth}`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/user/getCartById?postedBy=${auth}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -48,8 +48,12 @@ function GetCart() {
 
        
         let url="https://wa.me/9471784941?text="
-        +`item:${category}`
+        +`item:-${category}`
+        +`%0a`
+        +'Shipping charges:-80'
+        +`%0a`
         +`total:${count}`
+        +'%0a'
         window.open(url,'_blank').focus();
     }
 
