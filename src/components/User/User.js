@@ -17,7 +17,7 @@ function User() {
 
     const onsubmit = async () => {
         console.log(name, email, phone, gender);
-        let result = await fetch(`https://helo-on-her-hair-api.onrender.com/v1/user`, {
+        let result = await fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/user`, {
             method: 'POST',
             body: JSON.stringify({ name, email, phone, gender }),
             headers: {
