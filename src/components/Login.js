@@ -19,7 +19,7 @@ function Login() {
         } else if (!password) {
             setError("Password Required")
         } else {
-            fetch('https://helo-on-her-hair-api.onrender.com/v1/auth/login', {
+            fetch('https://helo-on-her-hair-api-q3v6.onrender.com/v1/auth/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
