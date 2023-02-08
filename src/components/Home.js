@@ -15,7 +15,7 @@ function Home() {
                     <div className='ds'>
                         <div className="body">
                             <div className="second-div">
-                                <img src={one} className="slider-image" />
+                                <img src={two} className="slider-image" />
                             </div>
                             <div className="first-div">
                                 <h1 className='unlimited'>Welcome to Helo on her hair</h1><br />
@@ -28,7 +28,7 @@ function Home() {
                     <div className='ds'>
                         <div className="body">
                             <div className="second-div">
-                                <img src={two} className="slider-image" />
+                                <img src={one} className="slider-image" />
                             </div>
                             <div className="first-div">
                                 <h1 className='unlimited'>Tie right.Life can be a mess ,why let your hair tir be?</h1><br />
