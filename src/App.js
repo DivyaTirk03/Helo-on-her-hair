@@ -11,6 +11,10 @@ import Wristlet from './components/Categori/Wristlet';
 import Double_Layered from './components/Categori/Double_Layered'
 import Organza from './components/Categori/Organza';
 import Printed from './components/Categori/Printed';
+import Anime from './components/Categori/Anime';
+import Kpop from './components/Categori/Kpop';
+import Clips from './components/Categori/Clips';
+import Hair_Bows from './components/Categori/Hair_Bows';
 import Cart from './components/AddToCart/Cart'
 import Test from './components/AddToCart/Test';
 import UpdateProduct from './components/Categori/UpdateProduct';
@@ -28,6 +32,10 @@ function App() {
           <Route path="/Printed" ><Printed /></Route>
           <Route path="/Wristlets" ><Wristlet /></Route>
           <Route path="/doublelayered" ><Double_Layered /></Route>
+          <Route path="/hairbows" ><Hair_Bows /></Route>
+          <Route path="/anime" ><Anime /></Route>
+          <Route path="/kpop" ><Kpop /></Route>
+          <Route path="/clips" ><Clips /></Route>
           <Route path="/Cart" ><GetCart /></Route>
           <Route path="/UpdateProduct/:id" ><UpdateProduct /></Route>
           <Route path="/User" ><User /></Route>
