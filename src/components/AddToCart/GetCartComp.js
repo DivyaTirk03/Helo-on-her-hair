@@ -15,7 +15,7 @@ function GetCartComp(props) {
     let postedBy = auth1;
 
     const uploadcart = () => {
-        fetch('https://helo-on-her-hair-api.onrender.com/cart', {
+        fetch('https://helo-on-her-hair-api-q3v6.onrender.com/cart', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ function GetCartComp(props) {
                         <Card.Title className="title" style={{ width: "108%" }}>{props.productDetail} and {props.productCategori}</Card.Title>
                         <Card.Text className="price">Rs. {props.productPrice}</Card.Text>
                         <Button variant="dark" onClick={() => {
-                            fetch(`https://helo-on-her-hair-api.onrender.com/v1/user/deletecart/${props.id}`, {
+                            fetch(`https://helo-on-her-hair-api-q3v6.onrender.com/v1/user/deletecart/${props.id}`, {
                                 method: 'DELETE',
                                 headers: {
                                     'Content-Type': 'application/json',
