@@ -23,7 +23,7 @@ function AddProduct() {
         data.append('upload_preset', 'Helohair')
         setLoading(true)
 
-        const res = await fetch("https://api.cloudinary.com/v1_1/dbz8cdpis/image/upload", {
+        const res = await fetch("https://api.cloudinary.com/v1_1/dpcffngpf/image/upload", {
             method: 'POST',
             body: data
         })
