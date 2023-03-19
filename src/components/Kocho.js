@@ -37,7 +37,7 @@ function Kocho() {
             <div className='ds2'>
                 <div className="container pb-5">
                     <div className='row'>
-                        <h1 className='best'> Best Scunchies</h1>
+                        <h1 className='best'> Best Scrunchies</h1>
                         {
                             product.map((val, ind) => {
                                 return <KochoComp
